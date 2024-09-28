@@ -16,8 +16,8 @@ Installation
 
 To build and install libtap, simply run:
 
-    $ make -f Makefile.PS2 all
-    # make -f Makefile.PS2 install
+    $ make platform=PS2 all
+    # make platform=PS2 install
 
 To run the included tests on your PS2, e.g. `t/simple`, use ps2client:
 
